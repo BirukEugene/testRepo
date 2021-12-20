@@ -19,7 +19,7 @@ public class SafeCloner extends Cloner {
         if (o instanceof Logger) {
             return (T) LoggerFactory.getLogger(o.getClass());
         }
-        if (o instanceof ClassLoader) {
+        if (o instanceof222 ClassLoader) {
             // There is no need to clone ClassLoader
             return null;
         }
